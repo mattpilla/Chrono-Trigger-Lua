@@ -1,0 +1,128 @@
+,ID,Name,PC 1,PC 2,PC 3,Target,Type 1,Type 2,Type 3,Status
+1,01,Cyclone,Crono,,,RAD_ENEMY,PHYS,,,
+2,02,Slash,Crono,,,LINE_ENEMY,PHYS,,,
+3,03,Lightning,Crono,,,ONE_ENEMY,LIGHT,,,
+4,04,Spincut,Crono,,,ONE_ENEMY,PHYS,,,
+5,05,Lightning 2,Crono,,,ALL_ENEMY,LIGHT,,,
+6,06,Life,Crono,,,DOWN_ALLY,STAT,,,LIFE
+7,07,Confuse,Crono,,,ONE_ENEMY,PHYS,,,
+8,08,Luminaire,Crono,,,ALL_ENEMY,LIGHT,,,
+9,09,Aura,Marle,,,ONE_ALLY,STAT,,,HEAL
+10,0A,Provoke,Marle,,,ONE_ENEMY,STAT,,,CONFUSE
+11,0B,Cure,Marle,,,ONE_ALLY,STAT,,,HEAL
+12,0C,Ice,Marle,,,ONE_ENEMY,WATER,,,
+13,0D,Haste,Marle,,,ALL_ALLY,STAT,,,SPEED
+14,0E,Cure 2,Marle,,,ALL_ALLY,STAT,,,HEAL
+15,0F,Ice 2,Marle,,,ALL_ENEMY,WATER,,,
+16,10,Life 2,Marle,,,DOWN_ALLY,STAT,,,LIFE
+17,11,Flame Toss,Lucca,,,LINE_ENEMY,FIRE,,,
+18,12,Hypno Wave,Lucca,,,ALL_ENEMY,STAT,,,SLEEP
+19,13,Fire,Lucca,,,ONE_ENEMY,FIRE,,,
+20,14,Napalm,Lucca,,,RAD_ENEMY,FIRE,,,
+21,15,Protect,Lucca,,,ONE_ALLY,STAT,,,DEF
+22,16,Fire 2,Lucca,,,ALL_ENEMY,FIRE,,,
+23,17,Mega Bomb,Lucca,,,RAD_ENEMY,FIRE,,,
+24,18,Flare,Lucca,,,ALL_ENEMY,FIRE,,,
+25,19,Rocketpunch,Robo,,,ONE_ENEMY,PHYS,,,
+26,1A,Cure Beam,Robo,,,ONE_ALLY,STAT,,,HEAL
+27,1B,Robo Tackle,Robo,,,ONE_ENEMY,PHYS,,,
+28,1C,Laser Spin,Robo,,,ALL_ENEMY,SHAD,,,
+29,1D,Heal Beam,Robo,,,ONE_ALLY,STAT,,,HEAL
+30,1E,Uzzi Punch,Robo,,,ONE_ENEMY,PHYS,,,
+31,1F,Area Bomb,Robo,,,RAD_ENEMY,FIRE,,,
+32,20,Shock,Robo,,,ALL_ENEMY,LIGHT,,,
+33,21,Slurp,Frog,,,ONE_ALLY,STAT,,,HEAL
+34,22,Slurp Cut,Frog,,,ONE_ENEMY,PHYS,,,
+35,23,Water,Frog,,,ONE_ENEMY,WATER,,,
+36,24,Heal,Frog,,,ALL_ALLY,STAT,,,HEAL
+37,25,Leap Slash,Frog,,,ONE_ENEMY,PHYS,,,
+38,26,Water 2,Frog,,,ALL_ENEMY,WATER,,,
+39,27,Cure 2,Frog,,,ONE_ALLY,STAT,,,HEAL
+40,28,Frog Squash,Frog,,,ALL_ENEMY,PHYS,,,
+41,29,Kiss,Ayla,,,ONE_ALLY,STAT,,,HEAL
+42,2A,Rollo Kick,Ayla,,,ONE_ENEMY,PHYS,,,
+43,2B,Cat Attack,Ayla,,,ONE_ENEMY,PHYS,,,
+44,2C,Rock Throw,Ayla,,,ONE_ENEMY,PHYS,,,
+45,2D,Charm,Ayla,,,ONE_ENEMY,STAT,,,STEAL
+46,2E,Triple Kick,Ayla,,,ONE_ENEMY,PHYS,,,
+47,2F,Tailspin,Ayla,,,ALL_ENEMY,PHYS,,,
+48,30,Dino Tail,Ayla,,,ALL_ENEMY,PHYS,,,
+49,31,Lightning 2,Magus,,,ALL_ENEMY,LIGHT,,,
+50,32,Ice 2,Magus,,,ALL_ENEMY,WATER,,,
+51,33,Fire 2,Magus,,,ALL_ENEMY,FIRE,,,
+52,34,Dark Bomb,Magus,,,ONE_ENEMY,SHAD,,,
+53,35,Magic Wall,Magus,,,ONE_ALLY,STAT,,,DEF
+54,36,Dark Mist,Magus,,,ONE_ENEMY,SHAD,,,
+55,37,Black Hole,Magus,,,RAD_ENEMY,STAT,,,OHKO
+56,38,Dark Matter,Magus,,,ALL_ENEMY,SHAD,,,
+57,39,Aura Whirl,Crono,Marle,,ALL_ALLY,STAT,,,HEAL
+58,3A,Ice Sword,Crono,Marle,,ONE_ENEMY,WATER,PHYS,,
+59,3B,Ice Sword 2,Crono,Marle,,LINE_ENEMY,WATER,PHYS,,
+60,3C,Fire Whirl,Crono,Lucca,,RAD_ENEMY,FIRE,PHYS,,
+61,3D,Fire Sword,Crono,Lucca,,ONE_ENEMY,FIRE,PHYS,,
+62,3E,Fire Sword 2,Crono,Lucca,,LINE_ENEMY,FIRE,PHYS,,
+63,3F,Rocket Roll,Crono,Robo,,ALL_ENEMY,SHAD,PHYS,,
+64,40,Max Cyclone,Crono,Robo,,RAD_ENEMY,PHYS,,,
+65,41,Super Volt,Crono,Robo,,ALL_ENEMY,LIGHT,PHYS,,
+66,42,X-strike,Crono,Frog,,ONE_ENEMY,PHYS,,,
+67,43,Swordstream,Crono,Frog,,ONE_ENEMY,WATER,PHYS,,
+68,44,Spire,Crono,Frog,,ONE_ENEMY,LIGHT,PHYS,,
+69,45,Drill Kick,Crono,Ayla,,ONE_ENEMY,PHYS,,,
+70,46,Volt Bite,Crono,Ayla,,ONE_ENEMY,LIGHT,PHYS,,
+71,47,Falcon Hit,Crono,Ayla,,LINE_ENEMY,PHYS,,,
+72,48,Antipode,Marle,Lucca,,RAD_ENEMY,WATER,FIRE,,
+73,49,Antipode 2,Marle,Lucca,,RAD_ENEMY,WATER,FIRE,,
+74,4A,Antipode 3,Marle,Lucca,,ALL_ENEMY,WATER,FIRE,,
+75,4B,Aura Beam,Marle,Robo,,ALL_ALLY,STAT,,,HEAL
+76,4C,Ice Tackle,Marle,Robo,,ONE_ENEMY,WATER,PHYS,,
+77,4D,Cure Touch,Marle,Robo,,ALL_ALLY,STAT,,,HEAL
+78,4E,Ice Water,Marle,Frog,,ALL_ENEMY,WATER,,,
+79,4F,Glacier,Marle,Frog,,ONE_ENEMY,WATER,,,
+80,50,Double Cure,Marle,Frog,,ALL_ALLY,STAT,,,HEAL
+81,51,Twin Charm,Marle,Ayla,,ONE_ENEMY,STAT,,,STEAL
+82,52,Ice Toss,Marle,Ayla,,LINE_ENEMY,WATER,PHYS,,
+83,53,Cube Toss,Marle,Ayla,,LINE_ENEMY,WATER,PHYS,,
+84,54,Fire Punch,Lucca,Robo,,ONE_ENEMY,FIRE,PHYS,,
+85,55,Fire Tackle,Lucca,Robo,,ONE_ENEMY,FIRE,PHYS,,
+86,56,Double Bomb,Lucca,Robo,,RAD_ENEMY,FIRE,,,
+87,57,Red Pin,Lucca,Frog,,ONE_ENEMY,FIRE,PHYS,,
+88,58,Line Bomb,Lucca,Frog,,LINE_ENEMY,FIRE,PHYS,,
+89,59,Frog Flare,Lucca,Frog,,ALL_ENEMY,FIRE,PHYS,,
+90,5A,Flame Kick,Lucca,Ayla,,ONE_ENEMY,FIRE,PHYS,,
+91,5B,Blaze Kick,Lucca,Ayla,,ONE_ENEMY,FIRE,PHYS,,
+92,5C,Firewhirl,Lucca,Ayla,,ALL_ENEMY,FIRE,,,
+93,5D,Blade Toss,Robo,Frog,,LINE_ENEMY,PHYS,,,
+94,5E,Bubble Snap,Robo,Frog,,ONE_ENEMY,WATER,PHYS,,
+95,5F,Cure Wave,Robo,Frog,,ALL_ALLY,STAT,,,HEAL
+96,60,Boogie,Robo,Ayla,,ALL_ENEMY,STAT,,,STOP
+97,61,Spin Kick,Robo,Ayla,,ONE_ENEMY,PHYS,,,
+98,62,Beast Toss,Robo,Ayla,,ONE_ENEMY,PHYS,,,
+99,63,Slurp Kiss,Frog,Ayla,,ALL_ALLY,STAT,,,HEAL
+100,64,Bubble Hit,Frog,Ayla,,ONE_ENEMY,WATER,PHYS,,
+101,65,Drop Kick,Frog,Ayla,,ONE_ENEMY,PHYS,,,
+102,66,Delta Force,Crono,Marle,Lucca,ALL_ENEMY,LIGHT,WATER,FIRE,
+103,67,Life Line,Crono,Marle,Robo,ALL_ALLY,STAT,,,HEAL
+104,68,Arc Impulse,Crono,Marle,Frog,ALL_ENEMY,LIGHT,WATER,,
+105,69,Gatling Kick,Crono,Lucca,Ayla,ONE_ENEMY,LIGHT,FIRE,PHYS,
+106,6A,Fire Circle,Crono,Lucca,Robo,ALL_ENEMY,FIRE,,,
+107,6B,Delta Storm,Crono,Lucca,Frog,ALL_ENEMY,LIGHT,FIRE,WATER,
+108,6C,Final Kick,Crono,Marle,Ayla,ONE_ENEMY,LIGHT,WATER,PHYS,
+109,6D,Triple Raid,Crono,Frog,Robo,ONE_ENEMY,PHYS,,,
+110,6E,Twister,Crono,Robo,Ayla,ALL_ENEMY,SHAD,,,
+111,6F,3D Attack,Crono,Frog,Ayla,ONE_ENEMY,PHYS,,,
+112,70,Dark Eternal,Marle,Lucca,Magus,ALL_ENEMY,SHAD,WATER,FIRE,
+113,71,Omega Flare,Lucca,Robo,Magus,ALL_ENEMY,SHAD,FIRE,LIGHT,
+114,72,Spin Strike,Robo,Frog,Ayla,ONE_ENEMY,PHYS,,,
+115,73,Poyozo Dance,Marle,Lucca,Ayla,ALL_ENEMY,SHAD,,,
+116,74,Grand Dream,Marle,Robo,Frog,ALL_ENEMY,SHAD,WATER,,
+117,75,[none],,,,,,,,
+118,76,[none],,,,,,,,
+119,77,[none],,,,,,,,
+120,78,[none],,,,,,,,
+121,79,[none],,,,,,,,
+122,7A,Angel Attack,Crono,,,ONE_ENEMY,,,,
+123,7B,[none],,,,,,,,
+124,7C,[none],,,,,,,,
+125,7D,[none],,,,,,,,
+126,7E,[none],,,,,,,,
+127,7F,[none],,,,,,,,
