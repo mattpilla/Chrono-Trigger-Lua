@@ -1,0 +1,9 @@
+*
+!.gitignore
+!CTtechtest.lua
+
+!lib
+!lib/**/*
+
+!techs
+!techs/**/*
