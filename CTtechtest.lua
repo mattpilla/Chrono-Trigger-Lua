@@ -35,6 +35,7 @@ local log_addrs = {
 
 local frame = 0
 local tech_index = 1
+local techs_dir = "techs/" .. version .. "/"
 local file
 
 tech_id = 0x80
@@ -130,10 +131,10 @@ function new_tech()
     end
     local pc2 = tech_data[tech_index].pc2
     local pc3 = tech_data[tech_index].pc3
-    savestate.load("techs/" .. pc1 .. pc2 .. pc3 .. ".State")
+    savestate.load(techs_dir .. pc1 .. pc2 .. pc3 .. ".State")
 end
 
-savestate.load("techs/Crono.State")
+savestate.load(techs_dir .. "Crono.State")
 init()
 
 for i = 1, #log_addrs do
