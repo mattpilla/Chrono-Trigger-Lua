@@ -15,6 +15,7 @@ local addr_enemy_hp = {
     0x6030,
     0x60B0
 }
+local addr_pc1_ats = 0xB03A -- Attack Timer Status
 local addr_pc3_hp = 0x5F30
 local addr_target_selection = 0x960D
 
@@ -80,6 +81,7 @@ function display_info()
         type = type .. ", " .. types[tech.type3]
     end
     local info = {
+        "Version: " .. version,
         "ID: " .. hex(tech_id, true),
         "Name: " .. tech.name,
         "Users: " .. users,
@@ -115,6 +117,13 @@ function write_log()
     file:close()
 end
 
+function load_state()
+    local pc1 = tech_data[tech_index].pc1
+    local pc2 = tech_data[tech_index].pc2
+    local pc3 = tech_data[tech_index].pc3
+    savestate.load(techs_dir .. pc1 .. pc2 .. pc3 .. ".State")
+end
+
 function new_tech()
     write_log()
     frame = 0
@@ -129,12 +138,10 @@ function new_tech()
             break
         end
     end
-    local pc2 = tech_data[tech_index].pc2
-    local pc3 = tech_data[tech_index].pc3
-    savestate.load(techs_dir .. pc1 .. pc2 .. pc3 .. ".State")
+    load_state()
 end
 
-savestate.load(techs_dir .. "Crono.State")
+load_state()
 init()
 
 for i = 1, #log_addrs do
@@ -145,7 +152,7 @@ while true do
     display_info()
     -- freeze_hp()
     attack()
-    if frame > 5 and mainmemory.readbyte(addr_tech_id) == 0 then
+    if frame > 5 and mainmemory.readbyte(addr_pc1_ats) == 1 then
         new_tech()
         if tech_index > #tech_data then
             terminate()
